@@ -1,7 +1,7 @@
 import { Canvas, useThree, useFrame } from "@react-three/fiber";
 import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
 import styled from "styled-components";
-import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader";
+import { FBXLoader } from "three/examples/jsm/loaders/FBXLoader.js";
 import { Suspense, useState, useEffect, useCallback, useRef } from "react";
 import { Group } from "three";
 
